@@ -16,7 +16,7 @@
   s.parentNode.insertBefore(t, s);
 })(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
 
-window.fbq('init', '685963940870120');
+window.fbq('init', '735840079108609');
 window.fbq('track', 'PageView');
 
 import { StrictMode } from 'react';
