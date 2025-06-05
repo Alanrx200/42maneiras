@@ -25,15 +25,26 @@ export default function LeadForm() {
         name="nome"
         placeholder="Seu nome"
         required
-        style={{ padding: '10px', borderRadius: '6px' }}
+        style={{
+          padding: '10px',
+          borderRadius: '6px',
+          color: '#000',
+          border: '1px solid #ccc',
+        }}
       />
+
       <input
         type="tel"
         name="whatsapp"
         placeholder="Seu WhatsApp (com DDD)"
         required
         pattern="[0-9]{10,13}"
-        style={{ padding: '10px', borderRadius: '6px' }}
+        style={{
+          padding: '10px',
+          borderRadius: '6px',
+          color: '#000',
+          border: '1px solid #ccc',
+        }}
       />
 
       <input type="hidden" name="_next" value="https://suaurl.vercel.app/obrigado.html" />
