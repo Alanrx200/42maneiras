@@ -28,10 +28,11 @@ export default function LeadForm() {
         style={{ padding: '10px', borderRadius: '6px' }}
       />
       <input
-        type="text"
+        type="tel"
         name="whatsapp"
         placeholder="Seu WhatsApp (com DDD)"
         required
+        pattern="[0-9]{10,13}"
         style={{ padding: '10px', borderRadius: '6px' }}
       />
 
